@@ -1,24 +1,38 @@
 <html>
-<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 <head>
-<title>Sam's Cool Kids room</title>
+<title>About Me | samzien.github.io</title>
 <!--mobile sizing-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--just for search engines and stuff-->
   <meta charset="UTF-8">
-  <meta name="description" content="Sam Zien's website.">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript,programming,personal, zien, sam">
+  <meta name="description" content="About Sam Zien">
+  <meta name="keywords" content="personal, zien, sam, blog, overwatch">
 <!--end of metadata-->
-  <b style="font-size: 20px; color: #fff;">Yeet</b>
   <link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu" rel="stylesheet">
   <link href="./style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
+<h1 class="lobster box">Hello! Welcome to my website. Let me tell you a little bit about myself:</h1>
 <br />
-<div 
-<a href="https://twitter.com/samexebin">
-  <img src="Twitter_Bird.svg.png" alt="Check me out on twitter!" width="120" height="100">
+<div class="navbar">
+  <a href="https://twitter.com/samexebin">
+  <img src="Twitter_Bird.svg.png" alt="Check me out on twitter!" width="30" height="25">
 </a>
+</div>
 </body>
+<script>var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+  </script>
 </html>
