@@ -8,36 +8,22 @@
   <meta name="description" content="About Sam Zien">
   <meta name="keywords" content="personal, zien, sam, blog, overwatch">
 <!--end of metadata-->
+<script src="./collapsible.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu" rel="stylesheet">
   <link href="./style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!--End of imports-->
 </head>
 <body>
-<!--Start of content-->
 <h1 class="lobster box">Hello! Welcome to my website. Let me tell you a little bit about myself:</h1>
 <br />
-  <div>
-  <p>I'm Sam, a high schooler who likes to program. This website will serve as a personal blog, and a site to share my content and information.</p>
-  </div>
-<!--End of content-->
+<div id="about">
+<p>I'm Sam, a 14 year old from the United States. I like programming and stuff, and this website will serve as a personal blog of sorts.</p>
+</div>
 <div class="navbar">
   <a href="https://twitter.com/samexebin">
   <img src="Twitter_Bird.svg.png" alt="Check me out on twitter!" width="30" height="25">
 </a>
 </div>
 </body>
-<script>var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-  </script>
 </html>
