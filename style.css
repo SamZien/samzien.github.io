@@ -16,10 +16,12 @@ p {
   padding:3px;
   outline: 3px solid white;
 }
+/*make sure infobox displays properly on mobile*/
 body .infobox {
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-top: 5px;
+  /*margin-left&right keep box centered inside body*/
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 7px;
 }
 .lobster {
   font-family: 'Lobster', cursive;
@@ -127,7 +129,7 @@ body .infobox {
   float: left;
   display: block;
   color: #f2f2f2;
-    padding: 0.5% 0.1%;
+  padding: 0.5% 0.1%;
   text-decoration: none;
   font-size:
 }
