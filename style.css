@@ -12,11 +12,14 @@ p {
   color: #fff;
 }
 .infobox {
-  left: 20%;
-  right: 20%;
-  background-size: 60% 60%;
   background-color: #010040;
-  padding:2px;
+  padding:3px;
+  outline: 3px solid white;
+}
+body .infobox {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 5px;
 }
 .lobster {
   font-family: 'Lobster', cursive;
