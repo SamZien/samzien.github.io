@@ -10,7 +10,6 @@ p {
   font-family: Ubuntu, sans-serif;
   padding: 2px;
   color: #fff;
-  text-shadow: 3px 3px 4px black;
 }
 .infobox {
   left: 20%;
@@ -120,14 +119,12 @@ p {
   left: 0%;
   width: 100%;
 }
-
 /* Style the links inside the navigation bar */
 .navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
-  padding: 0.5% 1%;
+    padding: 0.5% 0.1%;
   text-decoration: none;
-  font-size: 17px;
+  font-size:
 }
