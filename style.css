@@ -133,3 +133,7 @@ body .infobox {
   text-decoration: none;
   font-size:
 }
+.postsub {
+  font-size: 9px;
+  color: #CCCCCC;
+}
