@@ -38,7 +38,12 @@
 </head>
 <body>
   <!--Add collapsible link to post and posts page info-->
-
+<button class="collapsible">Putting LGBT+ Players on the map</button>
+<div class="content">
+  <a href="./hoa-admin-interview.html">An interview with the founders of Hunters of Artemis on their impacts on the overwatch community</a>
+  <br />
+  <sub class="postsub">Sam Zien | Mar 29, 2019</sub>
+</div>
   <!-- Start of navbar -->
   <br />
   <div class="navbar">
@@ -54,3 +59,17 @@
   </div>
 </body>
 </html>
+<script>var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}</script>
