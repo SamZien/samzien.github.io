@@ -134,6 +134,9 @@ body .infobox {
   font-size:
 }
 .postsub {
-  font-size: 9px;
+  font-size: 11px;
   color: #CCCCCC;
+}
+h4 {
+  color: #FFFFFF;
 }
